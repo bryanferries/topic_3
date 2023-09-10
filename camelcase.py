@@ -12,13 +12,12 @@ def instructions():
     print("    THESE ARE THE INSTRUCTIONS FOR YOU TO FOLLOW:")
     print("Step 1. Think of a sentence you want to turn into camelCase.")
     print("Step 2. Type the sentence into the prompt.")
-    print("Step 3. Press 'ENTER' and read the camelCased sentence/word.")
-
+    print("Step 3. Press 'ENTER' and read the camelCased sentence/word.")   # Added some instructions to test
 def display_banner():
     """ Display program name in banner """
     msg = 'Bryan\'s awesome BRANCH 5 camelCaseGenerator PROGRAM'
     stars = '\/' * (len(msg)-25)
-    print(f'\n {stars} \n {msg} \n {stars}\n')
+    print(f'\n {stars} \n {msg} \n {stars}\n')  # I just made some minute changes to test pushing to GitHub
 
 def main():
     display_banner()
