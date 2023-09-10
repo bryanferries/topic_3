@@ -16,8 +16,8 @@ def instructions():
 
 def display_banner():
     """ Display program name in banner """
-    msg = 'Bryan\'s awesome BRANCHED camelCaseGenerator PROGRAM'
-    stars = '*' * len(msg)
+    msg = 'Bryan\'s awesome BRANCH 5 camelCaseGenerator PROGRAM'
+    stars = '\/' * (len(msg)-25)
     print(f'\n {stars} \n {msg} \n {stars}\n')
 
 def main():
