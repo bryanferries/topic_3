@@ -8,6 +8,12 @@ is converted to "displayAllBooks" """
 # So this still works on empty strings, strings of length 1
     return upper_camel_cased[0:1].lower() + upper_camel_cased[1:]
 
+def instructions():
+    print("    THESE ARE THE INSTRUCTIONS FOR YOU TO FOLLOW:")
+    print("Step 1. Think of a sentence you want to turn into camelCase.")
+    print("Step 2. Type the sentence into the prompt.")
+    print("Step 3. Press 'ENTER' and read the camelCased sentence/word.")
+
 def display_banner():
     """ Display program name in banner """
     msg = 'Bryan\'s awesome BRANCHED camelCaseGenerator PROGRAM'
@@ -16,6 +22,7 @@ def display_banner():
 
 def main():
     display_banner()
+    instructions()
     sentence = input('Enter your sentence: ')
     output = camelcase(sentence)
     print(output)
