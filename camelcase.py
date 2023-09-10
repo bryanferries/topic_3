@@ -22,7 +22,7 @@ def display_banner():
 def main():
     display_banner()
     instructions()
-    sentence = input('Enter your sentence: ')
+    sentence = input('Enter your sentence: ')   # If I understand branches correctly, this comment should appear on GitHub
     output = camelcase(sentence)
     print(output)
 
